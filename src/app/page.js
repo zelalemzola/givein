@@ -68,15 +68,7 @@ export default function HomePage() {
                 Thank you sweetheart
               </h1>
               <p className="text-xl text-muted-foreground mt-6">I can't wait to hear your voice every morning 💕</p>
-              <div className="mt-8">
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary/10 bg-transparent"
-                >
-                  <a href="/answer">View Number</a>
-                </Button>
-              </div>
+              
             </div>
           )}
         </div>
