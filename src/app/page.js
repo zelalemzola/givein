@@ -79,7 +79,7 @@ export default function HomePage() {
           ) : (
             <div className="animate-in zoom-in-50 duration-700 relative">
               {/* Show 4th sticker above thank you message */}
-              <div className="absolute left-1/2 -top-24 -translate-x-1/2 rotate-[-10deg]">
+              <div className="absolute -right-12 -top-64 -translate-x-1/2 rotate-[-10deg] ">
                 <Sticker src="/4.tgs" />
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-primary neon-text text-balance leading-tight">
