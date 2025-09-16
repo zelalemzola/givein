@@ -12,7 +12,7 @@ export function BouncingNoButton() {
   const handleHover = () => {
     if (isAnimating) return
 
-    const bounceX = (Math.random() - 0.5) * 200 // Random direction
+    const bounceX = (Math.random() - 0.5) * 300 // Random direction
     const bounceY = (Math.random() - 0.5) * 100
 
     setBounceStyle({
@@ -31,7 +31,7 @@ export function BouncingNoButton() {
   return (
     <Button
       variant="outline"
-      size="lg"
+      size="sm"
       className={`
         bg-transparent border-2 border-red-500 text-red-500 hover:bg-red-500/10
         transition-all duration-300 cursor-pointer select-none
